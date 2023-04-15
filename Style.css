@@ -1,0 +1,212 @@
+        .background-color{
+            background-color: white;
+        }
+    
+        .Taniti-home-top-left{
+            width: 400px;
+            display: block;
+            font-size: 100px;
+            color: rgb(0, 0, 0);
+            margin: 0;
+        }
+
+        .island-pic{
+            width: 100%;
+            display: inline-block;
+            max-height: 650px;
+            object-fit: cover;
+        }
+
+        .food-pic{
+            width: 75%;
+            display: inline-block;
+            max-height: 650px;
+            object-fit: cover;
+            margin-left: 12%;
+        }
+
+        .things-to-do-pic{
+            width: 75%;
+            display: inline-block;
+            max-height: 650px;
+            object-fit: cover;
+            margin-left: 12%;
+        }
+
+        .transportation-pic{
+            width: 75%;
+            display: inline-block;
+            max-height: 650px;
+            object-fit: cover;
+            margin-left: 12%;
+        }
+
+        .free-pic{
+            width: 100%;
+            display: inline-block;
+            max-height: 650px;
+            object-fit: cover;
+        }
+
+        .home-overview_content{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            vertical-align: baseline;
+            background-color: white;
+        }
+
+        .home-overview-intro{
+            margin-left: 84px;
+            margin-right: 84px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+
+        .home-overview-intro_content-container{
+            flex-basis: 66.66667%;
+            max-width: 66.66667%; 
+        }
+
+        .h2.header2{
+            font-size: 4.5rem;
+            font-weight: 400;
+            letter-spacing: initial;
+            line-height: 1.2;
+            display: block;
+            font-size: 1.5em;
+            margin-block-start: 0.83em;
+            margin-block-end: 0.83em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .h1.header1{
+            font-size: 5rem;
+            font-weight: 400;
+            letter-spacing: initial;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            color: aliceblue;
+        }
+
+        .home-overview_content-text{
+            display: block;
+            font-size: 21px;
+            line-height: auto;
+            color: black;
+            margin: 0;
+            text-align: left;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .nav{
+            list-style-type: none;
+            margin: 5px;
+            padding: 10px;
+            overflow: hidden;
+            background-color: #000000;
+            display: block;
+            position:absolute; right:-5px; top:30px;
+            text-decoration: none;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color:aliceblue;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #8cc28b;
+        }
+
+        li a:hover:not(.active) {
+            background-color: skyblue;
+        }
+
+        .active {
+        background-color: #333;
+        }
+
+        .TopLeft a {
+          color: black;
+          padding: 15px 25px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+        }
+
+        .foot a {
+          color: white;
+          padding: auto;
+          text-align: center;
+          display: inline-block;
+        }
+
+            input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+          }
+          
+          label {
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+          }
+          
+          input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+          }
+          
+          input[type=submit]:hover {
+            background-color: #45a049;
+          }
+          
+          .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+          }
+          
+          .col-25 {
+            float: left;
+            width: 10%;
+            margin-top: 6px;
+          }
+          
+          .col-75 {
+            float: left;
+            width: 75%;
+            margin-top: 6px;
+          }
+          
+          .row::after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+
+          .footer {
+            text-align: center;
+            padding: 3px;
+            background-color: black;
+            color: white;
+          }
